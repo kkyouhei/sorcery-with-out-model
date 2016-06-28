@@ -10,6 +10,7 @@ mysql 5.7.12
 === startup
 
 mv dotenv .env
+./bin/rails s
 
 === different points
 
