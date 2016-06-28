@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This rails sample outside to have the authentication server.
+implemention of sorcery.
 
-Things you may want to cover:
+ruby 2.3.1p112
 
-* Ruby version
+mysql 5.7.12
 
-* System dependencies
+=== startup
 
-* Configuration
+mv dotenv .env
 
-* Database creation
+=== different points
 
-* Database initialization
+sorcery wiki
+https://github.com/NoamB/sorcery/wiki/Simple-Password-Authentication
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+different point
+1. dose not use authenticates_with_sorcery!
+2. define custom authenticate method in user model
